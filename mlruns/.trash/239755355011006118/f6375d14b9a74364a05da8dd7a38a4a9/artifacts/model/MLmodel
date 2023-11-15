@@ -1,0 +1,87 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.2
+mlflow_version: 2.8.0
+model_size_bytes: 1098839
+model_uuid: b3e29bf4768140b48b16b82f35608365
+run_id: f6375d14b9a74364a05da8dd7a38a4a9
+signature:
+  inputs: '[{"type": "long", "name": "android.permission.GET_ACCOUNTS"}, {"type":
+    "long", "name": "com.sonyericsson.home.permission.BROADCAST_BADGE"}, {"type":
+    "long", "name": "android.permission.READ_PROFILE"}, {"type": "long", "name": "android.permission.MANAGE_ACCOUNTS"},
+    {"type": "long", "name": "android.permission.WRITE_SYNC_SETTINGS"}, {"type": "long",
+    "name": "android.permission.READ_EXTERNAL_STORAGE"}, {"type": "long", "name":
+    "android.permission.RECEIVE_SMS"}, {"type": "long", "name": "com.android.launcher.permission.READ_SETTINGS"},
+    {"type": "long", "name": "android.permission.WRITE_SETTINGS"}, {"type": "long",
+    "name": "com.google.android.providers.gsf.permission.READ_GSERVICES"}, {"type":
+    "long", "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"}, {"type":
+    "long", "name": "android.permission.GET_TASKS"}, {"type": "long", "name": "android.permission.WRITE_EXTERNAL_STORAGE"},
+    {"type": "long", "name": "android.permission.RECORD_AUDIO"}, {"type": "long",
+    "name": "com.huawei.android.launcher.permission.CHANGE_BADGE"}, {"type": "long",
+    "name": "com.oppo.launcher.permission.READ_SETTINGS"}, {"type": "long", "name":
+    "android.permission.CHANGE_NETWORK_STATE"}, {"type": "long", "name": "com.android.launcher.permission.INSTALL_SHORTCUT"},
+    {"type": "long", "name": "android.permission.android.permission.READ_PHONE_STATE"},
+    {"type": "long", "name": "android.permission.CALL_PHONE"}, {"type": "long", "name":
+    "android.permission.WRITE_CONTACTS"}, {"type": "long", "name": "android.permission.READ_PHONE_STATE"},
+    {"type": "long", "name": "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"},
+    {"type": "long", "name": "android.permission.MODIFY_AUDIO_SETTINGS"}, {"type":
+    "long", "name": "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"}, {"type":
+    "long", "name": "android.permission.INTERNET"}, {"type": "long", "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"},
+    {"type": "long", "name": "com.majeur.launcher.permission.UPDATE_BADGE"}, {"type":
+    "long", "name": "android.permission.AUTHENTICATE_ACCOUNTS"}, {"type": "long",
+    "name": "com.htc.launcher.permission.READ_SETTINGS"}, {"type": "long", "name":
+    "android.permission.ACCESS_WIFI_STATE"}, {"type": "long", "name": "android.permission.FLASHLIGHT"},
+    {"type": "long", "name": "android.permission.READ_APP_BADGE"}, {"type": "long",
+    "name": "android.permission.USE_CREDENTIALS"}, {"type": "long", "name": "android.permission.CHANGE_CONFIGURATION"},
+    {"type": "long", "name": "android.permission.READ_SYNC_SETTINGS"}, {"type": "long",
+    "name": "android.permission.BROADCAST_STICKY"}, {"type": "long", "name": "com.anddoes.launcher.permission.UPDATE_COUNT"},
+    {"type": "long", "name": "com.android.alarm.permission.SET_ALARM"}, {"type": "long",
+    "name": "com.google.android.c2dm.permission.RECEIVE"}, {"type": "long", "name":
+    "android.permission.KILL_BACKGROUND_PROCESSES"}, {"type": "long", "name": "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"},
+    {"type": "long", "name": "com.sec.android.provider.badge.permission.READ"}, {"type":
+    "long", "name": "android.permission.WRITE_CALENDAR"}, {"type": "long", "name":
+    "android.permission.SEND_SMS"}, {"type": "long", "name": "com.huawei.android.launcher.permission.WRITE_SETTINGS"},
+    {"type": "long", "name": "android.permission.REQUEST_INSTALL_PACKAGES"}, {"type":
+    "long", "name": "android.permission.SET_WALLPAPER_HINTS"}, {"type": "long", "name":
+    "android.permission.SET_WALLPAPER"}, {"type": "long", "name": "com.oppo.launcher.permission.WRITE_SETTINGS"},
+    {"type": "long", "name": "android.permission.RESTART_PACKAGES"}, {"type": "long",
+    "name": "me.everything.badger.permission.BADGE_COUNT_WRITE"}, {"type": "long",
+    "name": "android.permission.ACCESS_MOCK_LOCATION"}, {"type": "long", "name": "android.permission.ACCESS_COARSE_LOCATION"},
+    {"type": "long", "name": "android.permission.READ_LOGS"}, {"type": "long", "name":
+    "com.google.android.gms.permission.ACTIVITY_RECOGNITION"}, {"type": "long", "name":
+    "com.amazon.device.messaging.permission.RECEIVE"}, {"type": "long", "name": "android.permission.SYSTEM_ALERT_WINDOW"},
+    {"type": "long", "name": "android.permission.DISABLE_KEYGUARD"}, {"type": "long",
+    "name": "android.permission.USE_FINGERPRINT"}, {"type": "long", "name": "me.everything.badger.permission.BADGE_COUNT_READ"},
+    {"type": "long", "name": "android.permission.CHANGE_WIFI_STATE"}, {"type": "long",
+    "name": "android.permission.READ_CONTACTS"}, {"type": "long", "name": "com.android.vending.BILLING"},
+    {"type": "long", "name": "android.permission.READ_CALENDAR"}, {"type": "long",
+    "name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"type": "long", "name":
+    "android.permission.WAKE_LOCK"}, {"type": "long", "name": "android.permission.ACCESS_FINE_LOCATION"},
+    {"type": "long", "name": "android.permission.BLUETOOTH"}, {"type": "long", "name":
+    "android.permission.CAMERA"}, {"type": "long", "name": "com.android.vending.CHECK_LICENSE"},
+    {"type": "long", "name": "android.permission.FOREGROUND_SERVICE"}, {"type": "long",
+    "name": "android.permission.BLUETOOTH_ADMIN"}, {"type": "long", "name": "android.permission.VIBRATE"},
+    {"type": "long", "name": "android.permission.NFC"}, {"type": "long", "name": "android.permission.RECEIVE_USER_PRESENT"},
+    {"type": "long", "name": "android.permission.CLEAR_APP_CACHE"}, {"type": "long",
+    "name": "com.android.launcher.permission.UNINSTALL_SHORTCUT"}, {"type": "long",
+    "name": "com.sec.android.iap.permission.BILLING"}, {"type": "long", "name": "com.htc.launcher.permission.UPDATE_SHORTCUT"},
+    {"type": "long", "name": "com.sec.android.provider.badge.permission.WRITE"}, {"type":
+    "long", "name": "android.permission.ACCESS_NETWORK_STATE"}, {"type": "long", "name":
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"}, {"type":
+    "long", "name": "com.huawei.android.launcher.permission.READ_SETTINGS"}, {"type":
+    "long", "name": "android.permission.READ_SMS"}, {"type": "long", "name": "android.permission.PROCESS_INCOMING_CALLS"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2023-11-15 04:34:43.036123'

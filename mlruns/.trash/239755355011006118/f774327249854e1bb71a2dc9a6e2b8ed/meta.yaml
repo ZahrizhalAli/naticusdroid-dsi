@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/user/PycharmProjects/data%20science%20playground%20-%20naticusdroid/mlruns/239755355011006118/f774327249854e1bb71a2dc9a6e2b8ed/artifacts
+deleted_time: 1700030770510
+end_time: 1700022757464
+entry_point_name: ''
+experiment_id: '239755355011006118'
+lifecycle_stage: deleted
+run_id: f774327249854e1bb71a2dc9a6e2b8ed
+run_name: ambitious-mule-726
+run_uuid: f774327249854e1bb71a2dc9a6e2b8ed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700021890266
+status: 3
+tags: []
+user_id: user

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/user/PycharmProjects/data%20science%20playground%20-%20naticusdroid/mlruns/522501812190571399/77f5a9562ce444f89c652fdc2b4086d0/artifacts
+end_time: 1700031190530
+entry_point_name: ''
+experiment_id: '522501812190571399'
+lifecycle_stage: active
+run_id: 77f5a9562ce444f89c652fdc2b4086d0
+run_name: traveling-shrimp-623
+run_uuid: 77f5a9562ce444f89c652fdc2b4086d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700031072474
+status: 3
+tags: []
+user_id: user

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/user/PycharmProjects/data%20science%20playground%20-%20naticusdroid/mlruns/239755355011006118/66498de59d3e47bbb435afa264b75051/artifacts
+deleted_time: 1700030770510
+end_time: 1699958004927
+entry_point_name: ''
+experiment_id: '239755355011006118'
+lifecycle_stage: deleted
+run_id: 66498de59d3e47bbb435afa264b75051
+run_name: tasteful-moose-138
+run_uuid: 66498de59d3e47bbb435afa264b75051
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699957121699
+status: 3
+tags: []
+user_id: user
