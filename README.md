@@ -31,7 +31,8 @@ Data berisi izin yang diambil dari lebih dari 29.000 aplikasi Android, termasuk 
 ### Exploratory Data Analysis
 Benign vs Malware
 
-![image](https://github.com/ZahrizhalAli/naticusdroid-dsi/assets/58893316/066574c5-e59a-4cde-90d9-1d01ca6d843c)
+![image](https://github.com/ZahrizhalAli/naticusdroid-dsi/assets/58893316/ab5b6295-6fb9-489e-a636-421d9475f970)
+
 
 ### Model Experiments
 1. Random Forest with KFold
@@ -44,9 +45,11 @@ Benign vs Malware
 ### Model Evaluation
 
 #### Confusion Matrix - Model Voting Classifier (Ensemble)
-![image](https://github.com/ZahrizhalAli/naticusdroid-dsi/assets/58893316/ea6de6f2-a579-4ab9-b008-1b9277f136ae)
+![image](https://github.com/ZahrizhalAli/naticusdroid-dsi/assets/58893316/9067640a-7e3f-4c4e-b685-5d3b7159ca69)
+
 
 #### ROC (Receiver Operating Characteristics) 
-![image](https://github.com/ZahrizhalAli/naticusdroid-dsi/assets/58893316/b0bd6e18-eeb7-49a1-8908-5b1cfedacd70)
+![image](https://github.com/ZahrizhalAli/naticusdroid-dsi/assets/58893316/af870427-2e71-4273-a815-fc74942a7780)
+
 
 
